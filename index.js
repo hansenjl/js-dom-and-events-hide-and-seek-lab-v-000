@@ -21,7 +21,4 @@ function deepestChild(){
       j = j.children[0]
     }
     return j 
-  }
-  
-  return last
 }
