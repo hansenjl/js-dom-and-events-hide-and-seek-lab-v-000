@@ -18,8 +18,11 @@ function deepestChild(){
   const node = document.querySelector('div#grand-node')
   var last = ""
   var j = node.children[0]
-  for(let k = 1, k > 0 , k++){
-    last = j.node.children[0]
+  while (j.children[0]){
+      j = j.children[0]
+    }
+    
+    
   }
   
   return last
