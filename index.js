@@ -18,7 +18,7 @@ function deepestChild(){
   const node = document.querySelector('div#grand-node')
   var last = ""
   var j = node.children[0]
-  for(let i = j, i !== undefined , i = i.children[0]){
+  for(let i = j, i !== undefined , i = j){
     last = j.node.children[0]
   }
   
